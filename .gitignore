@@ -1,0 +1,37 @@
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & Verification artifacts
+*.sqlite
+*.sqlite3
+*.db
+verification/*.sqlite
+verification/*.log
+verification/*_smoke*
+verification/**/sensor_readings.csv
+verification/**/sensor_readings.json
+backend/.cache_operational.pkl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+

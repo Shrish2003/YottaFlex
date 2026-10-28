@@ -1,0 +1,46 @@
+{
+  "List Shipments (limit=10)": {
+    "status": 200,
+    "iterations": 10,
+    "min_ms": 2031.36,
+    "max_ms": 2285.93,
+    "mean_ms": 2127.89,
+    "median_ms": 2091.24
+  },
+  "Get Shipment SHP-2026-000001": {
+    "status": 200,
+    "iterations": 10,
+    "min_ms": 340.06,
+    "max_ms": 392.65,
+    "mean_ms": 352.65,
+    "median_ms": 343.97
+  },
+  "Get Shipment Summary SHP-2026-000001": {
+    "status": 200,
+    "iterations": 10,
+    "min_ms": 1036.88,
+    "max_ms": 1214.15,
+    "mean_ms": 1103.69,
+    "median_ms": 1096.66
+  },
+  "Get Excursion EXC-2026-000001": {
+    "status": 200,
+    "iterations": 10,
+    "min_ms": 412.98,
+    "max_ms": 675.46,
+    "mean_ms": 532.41,
+    "median_ms": 525.05
+  },
+  "Quality Summary (/api/quality/summary)": {
+    "status": 200,
+    "iterations": 10,
+    "min_ms": 490.9,
+    "max_ms": 553.92,
+    "mean_ms": 523.98,
+    "median_ms": 525.78
+  },
+  "Metrics Summary (/api/metrics/summary)": {
+    "status": 404,
+    "error": "{\"detail\":\"Not Found\"}"
+  }
+}

@@ -1,0 +1,2 @@
+effective_from,effective_to,max_excursion_minutes,max_humidity_pct,max_temp_c,min_humidity_pct,min_temp_c,policy_id,product_id,version
+2026-01-01T00:00:00Z,,30,70,8,30,2,POL-000001,PRD-000001,1

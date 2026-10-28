@@ -1,0 +1,74 @@
+{
+  "dataset_counts": {
+    "shipments": 1000,
+    "containers": 300,
+    "assignments": 1000,
+    "sensors": 600,
+    "sensor_readings": 2028036,
+    "route_stops": 2000,
+    "custody_events": 2000,
+    "excursions": 40,
+    "ground_truth": 1000
+  },
+  "timings_seconds": {
+    "generation": 74.213,
+    "validation": 16.489,
+    "detection": 41.69,
+    "evaluation": 0.003,
+    "total_benchmark": 132.394
+  },
+  "confusion_matrix": {
+    "tp": 100,
+    "fp": 3,
+    "fn": 0,
+    "tn": 897
+  },
+  "metrics": {
+    "precision": {
+      "value": 0.970873786407767,
+      "denominator": 103
+    },
+    "recall": {
+      "value": 1.0,
+      "denominator": 100
+    },
+    "f1": {
+      "value": 0.9852216748768473,
+      "denominator": 203
+    },
+    "gap_recall": {
+      "value": 1.0,
+      "denominator": 20
+    },
+    "policy_accuracy": {
+      "value": 1.0,
+      "denominator": 30
+    },
+    "duration_absolute_error_minutes": {
+      "value": 0.0,
+      "denominator": 20
+    }
+  },
+  "findings_by_type": {
+    "calibration_failure": 12960,
+    "route_delay": 10,
+    "telemetry_gap": 20,
+    "policy_selection_error": 10,
+    "invalid_reading": 10,
+    "lifecycle_anomaly": 10,
+    "threshold_excursion": 40
+  },
+  "scenarios": {
+    "normal": 900,
+    "route_delay": 10,
+    "calibration_failure": 10,
+    "sensor_dropout": 10,
+    "wrong_product_threshold": 10,
+    "physically_invalid_reading": 10,
+    "delivery_before_departure": 10,
+    "brief_excursion": 10,
+    "duration_undercounted": 10,
+    "prolonged_excursion": 10,
+    "missing_interval": 10
+  }
+}

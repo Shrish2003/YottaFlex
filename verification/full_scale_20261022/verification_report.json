@@ -1,0 +1,173 @@
+{
+  "artifacts": {
+    "files": {
+      "container_assignments.csv": {
+        "row_count": 1000,
+        "size_bytes": 86066
+      },
+      "container_assignments.json": {
+        "row_count": 1000,
+        "size_bytes": 215005
+      },
+      "containers.csv": {
+        "row_count": 300,
+        "size_bytes": 9336
+      },
+      "containers.json": {
+        "row_count": 300,
+        "size_bytes": 32405
+      },
+      "corrective_actions.csv": {
+        "row_count": 40,
+        "size_bytes": 4659
+      },
+      "corrective_actions.json": {
+        "row_count": 40,
+        "size_bytes": 12965
+      },
+      "custody_events.csv": {
+        "row_count": 2000,
+        "size_bytes": 174096
+      },
+      "custody_events.json": {
+        "row_count": 2000,
+        "size_bytes": 560007
+      },
+      "excursions.csv": {
+        "row_count": 40,
+        "size_bytes": 8172
+      },
+      "excursions.json": {
+        "row_count": 40,
+        "size_bytes": 19235
+      },
+      "generation_config.json": {
+        "row_count": 1,
+        "size_bytes": 863
+      },
+      "ground_truth.csv": {
+        "row_count": 1000,
+        "size_bytes": 185674
+      },
+      "ground_truth.json": {
+        "row_count": 1000,
+        "size_bytes": 444415
+      },
+      "products.csv": {
+        "row_count": 1,
+        "size_bytes": 78
+      },
+      "products.json": {
+        "row_count": 1,
+        "size_bytes": 133
+      },
+      "route_stops.csv": {
+        "row_count": 2000,
+        "size_bytes": 216107
+      },
+      "route_stops.json": {
+        "row_count": 2000,
+        "size_bytes": 618005
+      },
+      "sensor_readings.csv": {
+        "row_count": 2028036,
+        "size_bytes": 256517086
+      },
+      "sensor_readings.json": {
+        "row_count": 2028036,
+        "size_bytes": 676301993
+      },
+      "sensors.csv": {
+        "row_count": 600,
+        "size_bytes": 54676
+      },
+      "sensors.json": {
+        "row_count": 600,
+        "size_bytes": 144605
+      },
+      "shipments.csv": {
+        "row_count": 1000,
+        "size_bytes": 150381
+      },
+      "shipments.json": {
+        "row_count": 1000,
+        "size_bytes": 399237
+      },
+      "source_manifest.json": {
+        "row_count": 1,
+        "size_bytes": 483
+      },
+      "threshold_policies.csv": {
+        "row_count": 1,
+        "size_bytes": 196
+      },
+      "threshold_policies.json": {
+        "row_count": 1,
+        "size_bytes": 309
+      },
+      "validation_summary.json": {
+        "row_count": 1,
+        "size_bytes": 903
+      }
+    },
+    "missing": [],
+    "passed": true,
+    "row_errors": [],
+    "unexpected": []
+  },
+  "database_path": "C:\\Users\\Asus\\OneDrive\\Documents\\Desktop\\YottaFlex\\verification\\full_scale_20261022.sqlite",
+  "generated_counts": {
+    "assignments": 1000,
+    "containers": 300,
+    "corrective_actions": 40,
+    "custody_events": 2000,
+    "excursions": 40,
+    "policies": 1,
+    "products": 1,
+    "readings": 2028036,
+    "route_stops": 2000,
+    "sensors": 600,
+    "shipments": 1000
+  },
+  "log_path": "C:\\Users\\Asus\\OneDrive\\Documents\\Desktop\\YottaFlex\\verification\\full_scale_20261022.log",
+  "output_dir": "C:\\Users\\Asus\\OneDrive\\Documents\\Desktop\\YottaFlex\\verification\\full_scale_20261022",
+  "readback_counts": {
+    "container_assignments": 1000,
+    "containers": 300,
+    "corrective_actions": 40,
+    "custody_events": 2000,
+    "excursions": 40,
+    "products": 1,
+    "route_stops": 2000,
+    "sensor_readings": 2028036,
+    "sensors": 600,
+    "shipments": 1000,
+    "threshold_policies": 1
+  },
+  "started_at_utc": "2026-10-27T12:30:59.112569+00:00",
+  "status": "completed",
+  "timings_seconds": {
+    "artifact_verification": 15.4027688999995,
+    "export": 71.30638750000071,
+    "generation": 78.0136593999996,
+    "persistence": 163.15283080000154,
+    "read_back": 0.13541760000225622,
+    "validation": 19.9194834000009
+  },
+  "validation": {
+    "errors": [],
+    "passed": true,
+    "warnings": [
+      "intentional lifecycle anomaly: SHP-2026-000062",
+      "intentional lifecycle anomaly: SHP-2026-000145",
+      "intentional lifecycle anomaly: SHP-2026-000225",
+      "intentional lifecycle anomaly: SHP-2026-000229",
+      "intentional lifecycle anomaly: SHP-2026-000341",
+      "intentional lifecycle anomaly: SHP-2027-000454",
+      "intentional lifecycle anomaly: SHP-2027-000522",
+      "intentional lifecycle anomaly: SHP-2028-000759",
+      "intentional lifecycle anomaly: SHP-2028-000855",
+      "intentional lifecycle anomaly: SHP-2028-000888"
+    ]
+  }
+}

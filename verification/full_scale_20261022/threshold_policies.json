@@ -1,0 +1,14 @@
+[
+  {
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": null,
+    "max_excursion_minutes": 30,
+    "max_humidity_pct": 70,
+    "max_temp_c": 8,
+    "min_humidity_pct": 30,
+    "min_temp_c": 2,
+    "policy_id": "POL-000001",
+    "product_id": "PRD-000001",
+    "version": 1
+  }
+]

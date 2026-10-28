@@ -1,0 +1,14 @@
+[
+  {
+    "active": true,
+    "category": "cold_chain",
+    "name": "Baseline product",
+    "product_id": "PRD-000001"
+  },
+  {
+    "active": true,
+    "category": "synthetic_control",
+    "name": "Wrong product fixture",
+    "product_id": "PRD-000002"
+  }
+]

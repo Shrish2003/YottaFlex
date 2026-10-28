@@ -1,0 +1,20 @@
+{
+  "data_origin": "synthetic",
+  "generated_at_utc": "2026-10-27T12:36:31.800443Z",
+  "generator_version": "module-3-v1",
+  "record_counts": {
+    "assignments": 1000,
+    "containers": 300,
+    "corrective_actions": 40,
+    "custody_events": 2000,
+    "excursions": 40,
+    "policies": 1,
+    "products": 1,
+    "readings": 2028036,
+    "route_stops": 2000,
+    "sensors": 600,
+    "shipments": 1000
+  },
+  "schema_version": "module-2-v1",
+  "seed": 20261022
+}

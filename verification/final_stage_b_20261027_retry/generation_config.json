@@ -1,0 +1,34 @@
+{
+  "container_count": 300,
+  "generator_version": "module-3-v1",
+  "max_trip_days": 5,
+  "min_trip_days": 2,
+  "products": [
+    {
+      "category": "cold_chain",
+      "max_excursion_minutes": 30,
+      "max_humidity_pct": 70,
+      "max_temp_c": 8,
+      "min_humidity_pct": 30,
+      "min_temp_c": 2,
+      "name": "Baseline product"
+    }
+  ],
+  "sampling_interval_minutes": 5,
+  "scenario_counts": {
+    "brief_excursion": 10,
+    "calibration_failure": 10,
+    "delivery_before_departure": 10,
+    "duration_undercounted": 10,
+    "missing_interval": 10,
+    "normal": 900,
+    "physically_invalid_reading": 10,
+    "prolonged_excursion": 10,
+    "route_delay": 10,
+    "sensor_dropout": 10,
+    "wrong_product_threshold": 10
+  },
+  "seed": 20261022,
+  "shipment_count": 1000,
+  "start_datetime": "2026-01-01T00:00:00Z"
+}

@@ -1,0 +1,3 @@
+active,category,name,product_id
+True,cold_chain,Baseline product,PRD-000001
+True,synthetic_control,Wrong product fixture,PRD-000002
