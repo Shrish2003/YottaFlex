@@ -115,15 +115,15 @@ YottaFlex.ai is implemented as a modular monolith adhering to domain-driven sepa
 ```mermaid
 flowchart TD
     subgraph UI ["Frontend Operations Console (React 19 + TypeScript + Vite)"]
-        Overview["Fleet Overview Dashboard (/)"]
-        ShipmentView["Shipment Telemetry Inspector (/shipments/:id)"]
-        ExcursionView["Excursion Investigation Queue (/excursions/:id)"]
-        QualityView["Data Quality & Validation (/quality)"]
-        GenerateView["Dataset Generator Form (/generate)"]
+        Overview["Fleet Overview Dashboard"]
+        ShipmentView["Shipment Telemetry Inspector"]
+        ExcursionView["Excursion Investigation Queue"]
+        QualityView["Data Quality & Validation"]
+        GenerateView["Dataset Generator Form"]
     end
 
-    subgraph API ["Backend API Service (FastAPI @ http://127.0.0.1:8000)"]
-        Router["REST Router (/api/...)"]
+    subgraph API ["Backend API Service (FastAPI)"]
+        Router["REST Router (/api)"]
         CacheLayer["Thread-Safe Operational Cache"]
         DetectorEngine["Deterministic Detection Engine"]
         ValidatorEngine["Physical Constraint Validator"]
@@ -131,14 +131,12 @@ flowchart TD
     end
 
     subgraph DB ["Persistence Layer (SQLAlchemy 2.0 / PostgreSQL or SQLite)"]
-        OperationalTables[("10 Core Relational Tables
-(Shipments, Sensors, Readings, Excursions, Actions)")]
-        Alembic["Alembic Version Tracker (91f9897bb752)"]
+        OperationalTables[("10 Core Relational Tables<br/>Shipments, Sensors, Readings, Excursions, Actions")]
+        Alembic["Alembic Version Tracker"]
     end
 
     subgraph Eval ["Isolated Evaluation Harness"]
-        GroundTruth[("Isolated Ground Truth
-(Excluded from API / Detector)")]
+        GroundTruth[("Isolated Ground Truth<br/>Excluded from API & Detector")]
         Evaluator["Confusion Matrix & Metric Evaluator"]
         Exports["Multi-Format Exporter (CSV / JSON)"]
     end
